@@ -26,9 +26,9 @@
     "electron:generate-icons": "electron-icon-builder --input=./public/electron.png --output=build --flatten"
   },
   "build": {
-    "productName": "ElectronDeskTopTool",
-    "appId": "dyy.dongyuanwai",
-    "copyright": "dyy.dongyuanwai © 2024",
+    "productName": "开发工具",
+    "appId": "hdq.handq",
+    "copyright": "hdq.handq © 2024",
     "compression": "maximum",
     "asar": true,
     "directories": {
@@ -41,7 +41,7 @@
       "deleteAppDataOnUninstall": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "ElectronDeskTopTool"
+      "shortcutName": "开发工具"
     },
     "win": {
       "icon": "./public/256x256.png",
