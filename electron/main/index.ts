@@ -65,9 +65,10 @@ async function createWindow() {
     })
    
     // 创建icon我这里使用的是一个png
-    const icon = nativeImage.createFromPath(path.join(__dirname, '/static/health2.png'))
+    const icon = nativeImage.createFromPath('./public/24x24.png')
     // 实例化一个 托盘对象，传入的是托盘的图标
     tray = new Tray(icon)
+    
     // 移动到托盘上的提示
     tray.setToolTip('移动桌面端')
     // 还可以设置 titlle

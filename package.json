@@ -44,7 +44,7 @@
       "shortcutName": "ElectronDeskTopTool"
     },
     "win": {
-      "icon": "./public/logo.svg",
+      "icon": "./public/256x256.png",
       "artifactName": "${productName}-v${version}-${platform}-setup.${ext}",
       "target": [
         {
@@ -53,11 +53,11 @@
       ]
     },
     "mac": {
-      "icon": "./public/logo.svg",
+      "icon": "./public/256x256.png",
       "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
     },
     "linux": {
-      "icon": "./public/logo.svg",
+      "icon": "./public/256x256.png",
       "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
     }
   },
