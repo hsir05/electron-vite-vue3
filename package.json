@@ -32,39 +32,40 @@
     "compression": "maximum",
     "asar": true,
     "directories": {
-        "output": "release/"
+      "output": "release/"
     },
     "nsis": {
-        "oneClick": false, 
-        "allowToChangeInstallationDirectory": true,
-        "perMachine": true,
-        "deleteAppDataOnUninstall": true,
-        "createDesktopShortcut": true,
-        "createStartMenuShortcut": true, 
-        "shortcutName": "ElectronDeskTopTool"
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": true,
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ElectronDeskTopTool"
     },
     "win": {
-        "icon": "./public/logo.ico",
-        "artifactName": "${productName}-v${version}-${platform}-setup.${ext}", 
-        "target": [
-            {
-                "target": "nsis"
-            }
-        ]
+      "icon": "./public/logo.svg",
+      "artifactName": "${productName}-v${version}-${platform}-setup.${ext}",
+      "target": [
+        {
+          "target": "nsis"
+        }
+      ]
     },
     "mac": {
-        "icon": "./public/logo.ico",
-        "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
+      "icon": "./public/logo.svg",
+      "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
     },
     "linux": {
-        "icon": "./public/logo.ico",
-        "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
+      "icon": "./public/logo.svg",
+      "artifactName": "${productName}-v${version}-${platform}-setup.${ext}"
     }
-},
+  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "electron": "^29.1.1",
     "electron-builder": "^24.13.3",
+    "electron-icon-builder": "^2.0.1",
     "typescript": "^5.4.2",
     "vite": "^5.1.5",
     "vite-plugin-electron": "^0.28.4",
